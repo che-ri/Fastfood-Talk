@@ -14,6 +14,7 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: center;
 }
 
 .more-suggestions__icon {
@@ -25,7 +26,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--brown);
   border-radius: 10px;
   display: flex;
   justify-content: center;
