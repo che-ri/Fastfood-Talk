@@ -30,5 +30,8 @@ body {
   padding: 0px var(--horizontal-space);
 }
 
-
-
+#main-skin {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}

@@ -12,7 +12,6 @@
   background-color: #abc1d1;
 }
 
-
 #chat-screen .status-bar {
   z-index: 2;
 }
@@ -31,12 +30,12 @@
   animation: fadein 0.8s linear;
 }
 
-@keyframes fadein{
-  from{
+@keyframes fadein {
+  from {
     transform: translateY(30px);
     opacity: 0;
   }
-  to{
+  to {
     transform: none;
     opacity: 1;
   }
@@ -170,7 +169,7 @@
 
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-smile-wink,
-.reply:focus-within button{
+.reply:focus-within button {
   opacity: 0;
 }
 
@@ -179,6 +178,10 @@
   transform: translateX(-13%) translateY(-80px);
 }
 
-.reply:focus-within{
+.reply:focus-within {
   transform: translateY(80px);
+}
+
+.message__info {
+  margin-bottom: 20px;
 }
