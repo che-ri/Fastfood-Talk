@@ -1,6 +1,11 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin: 25px 0;
+}
+
+.user-component i,
+.user-component span {
+  color: var(--brown);
 }
 
 .user-component,

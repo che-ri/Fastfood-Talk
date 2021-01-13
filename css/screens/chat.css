@@ -54,17 +54,16 @@
   display: flex;
   margin-bottom: 25px;
 }
-/* 실시간으로 메세지 오는 것처럼 애니메이션 넣기 !! 
-도와주신다면 이 은혜를 잊지 않겠습니다. 오라버니...... */
 
 .message-pop {
   animation: messagepop 0.7s ease-in-out forwards;
   opacity: 0;
 }
 
-.message-row .message__info:nth-child(2) {
-  animation-delay: 1s;
+.message-row:nth-child(2) .message__info:nth-child(3) {
+  animation-delay: 0.5s;
 }
+
 .message-row .message__info:last-child {
   animation-delay: 0.8s;
 }
