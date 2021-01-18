@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Offside&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+
 @import "reset.css";
 @import "variables.css";
 
@@ -22,8 +24,10 @@
 @import "screens/chat.css";
 
 body {
+  font-family: "Mr Dafoe", cursive;
   font-family: "Inter", sans-serif;
   font-family: "Offside", cursive;
+
   color: #2e363e;
   font-size: 15px;
 }
