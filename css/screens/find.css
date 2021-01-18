@@ -31,8 +31,8 @@
 }
 
 .recommended-friends {
-  margin: 25px 0px;
-  padding: 25px 0px;
+  margin: 15px 0px;
+  padding: 15px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
@@ -63,7 +63,7 @@
 .recommended-friends span {
   display: block;
   text-align: end;
-  margin: 30px 0px;
+  margin: 15px 0px;
   color: var(--text-color-gray);
 }
 
@@ -94,7 +94,7 @@
   display: flex;
   justify-content: space-between;
   color: var(--brown);
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .open-chat__header h4 i {

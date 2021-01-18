@@ -1,4 +1,6 @@
 .screen-header {
+  width: 100%;
+  box-sizing: border-box;
   background-color: var(--brown);
   color: white;
   display: flex;
