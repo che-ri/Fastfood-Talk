@@ -13,9 +13,32 @@
 }
 
 .screen-header__icons span {
+  cursor: pointer;
   margin-left: 25px;
 }
 
+.screen-header__title:hover,
+.screen-header__icons .fa-search:hover,
+.screen-header__icons .fa-music:hover,
+.screen-header__icons .fa-comment:hover {
+  animation: scaleHeader 0.4s ease-out infinite;
+}
+
+@keyframes scaleHeader {
+  0% {
+    transform: scale(none);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(none);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 1s linear infinite;
+}
 @keyframes rotatecog {
   from {
     transform: none;
@@ -23,8 +46,4 @@
   to {
     transform: rotatez(360deg);
   }
-}
-
-.screen-header__icons .fa-cog:hover {
-  animation: rotatecog 1s linear infinite;
 }

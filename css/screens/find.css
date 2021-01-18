@@ -5,6 +5,29 @@
 .icon-row__icon {
   width: 80px;
   text-align: center;
+  cursor: pointer;
+  animation: flipIconRow 0.3s ease-in-out;
+}
+.icon-row__icon:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.icon-row__icon:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.icon-row__icon:last-child {
+  animation-delay: 0.8s;
+}
+
+@keyframes flipIconRow {
+  0% {
+    transform: rotateX(none);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(none);
+  }
 }
 
 .recommended-friends {
@@ -17,6 +40,19 @@
 .recommended-friends__title {
   font-size: 18px;
   color: var(--brown);
+}
+
+.sales-king {
+  animation: sales-king 0.3s linear infinite;
+}
+
+@keyframes sales-king {
+  from {
+    color: #e8534d;
+  }
+  to {
+    color: inherit;
+  }
 }
 
 .recommended-friends__title i {
@@ -66,7 +102,18 @@
   color: rgba(231, 76, 76, 0.938);
 }
 .open-chat__header span {
+  cursor: pointer;
   color: var(--text-color-gray);
+  animation: pinkLive 0.3s linear infinite;
+}
+
+@keyframes pinkLive {
+  from {
+    color: inherit;
+  }
+  from {
+    color: #e8534d;
+  }
 }
 
 .open-post {
@@ -114,7 +161,7 @@
 
 .open-post__photo img {
   width: 120px;
-  height: 120px;
+  height: 110px;
   border-radius: 10px;
 }
 

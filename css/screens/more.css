@@ -33,6 +33,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  transition: translate 1s ease-in-out;
+  cursor: pointer;
+}
+
+.more-suggestions__icon-image:hover {
+  transform: translatey(-10px);
 }
 
 .more-suggestions__icon-image i {
