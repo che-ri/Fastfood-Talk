@@ -67,7 +67,7 @@
     -0.2vw 0vw 10vw #f0d90bcb, -0.4vw 0vw 10vw #f0d90bcb;
 }
 
-.FastFood {
+.fastfood {
   color: #28d7fe;
   margin-right: 10vw;
   font-family: lasenter;
@@ -98,7 +98,7 @@
   }
 }
 
-.Talk {
+.talk {
   color: #a9ffdc;
   margin-bottom: 10px;
   font-family: lasenter;
@@ -129,7 +129,7 @@
   }
 }
 
-.Welcome {
+.welcome {
   font-family: "Offside", cursive;
   font-size: 8vw;
   margin-left: 1.5vw;
